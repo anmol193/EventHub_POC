@@ -1,0 +1,327 @@
+{
+	"name": "Notebook 1",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "spark1",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"runAsWorkspaceSystemIdentity": false,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "6b393965-5378-4a9b-8909-dfae14b4489c"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"d65b6939-ecd4-4448-91bd-9ff1eae35ea7": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": {
+											"Make": "Ford",
+											"Model": "Mustang",
+											"VehicleType": 1,
+											"VehicleWeight": 0
+										},
+										"1": "2023-05-15 12:53:18.112274",
+										"2": "NJ",
+										"3": "6",
+										"4": "497669278",
+										"5": "2",
+										"6": "HJL 8342",
+										"7": "2023-05-15 12:53:21.63396",
+										"8": "0",
+										"9": "2023-05-15 12:53:21.416"
+									},
+									{
+										"0": {
+											"Make": "Peterbilt",
+											"Model": "389",
+											"VehicleType": 2,
+											"VehicleWeight": 2.675
+										},
+										"1": "2023-05-15 12:53:18.167274",
+										"2": "NJ",
+										"3": "26",
+										"4": "305657883",
+										"5": "3",
+										"6": "HPY 9104",
+										"7": "2023-05-15 12:53:21.853105",
+										"8": "0",
+										"9": "2023-05-15 12:53:21.666"
+									},
+									{
+										"0": {
+											"Make": "Peterbilt",
+											"Model": "389",
+											"VehicleType": 2,
+											"VehicleWeight": 2.675
+										},
+										"1": "2023-05-15 12:53:18.282274",
+										"2": "AL",
+										"3": "32",
+										"4": "931624927",
+										"5": "3",
+										"6": "NPL 5646",
+										"7": "2023-05-15 12:53:22.180879",
+										"8": "0",
+										"9": "2023-05-15 12:53:21.932"
+									},
+									{
+										"0": {
+											"Make": "Ford",
+											"Model": "Mustang",
+											"VehicleType": 1,
+											"VehicleWeight": 0
+										},
+										"1": "2023-05-15 12:53:18.319274",
+										"2": "WA",
+										"3": "4",
+										"4": "707822051",
+										"5": "4",
+										"6": "AFG 6987",
+										"7": "2023-05-15 12:53:22.399634",
+										"8": "0",
+										"9": "2023-05-15 12:53:22.198"
+									},
+									{
+										"0": {
+											"Make": "Mac",
+											"Model": "Granite",
+											"VehicleType": 2,
+											"VehicleWeight": 2.71
+										},
+										"1": "2023-05-15 12:53:18.632274",
+										"2": "CT",
+										"3": "22",
+										"4": "587125385",
+										"5": "4",
+										"6": "YII 2928",
+										"7": "2023-05-15 12:53:22.837076",
+										"8": "0",
+										"9": "2023-05-15 12:53:22.698"
+									},
+									{
+										"0": {
+											"Make": "Toyota",
+											"Model": "Rav4",
+											"VehicleType": 1,
+											"VehicleWeight": 0
+										},
+										"1": "2023-05-15 12:53:21.406185",
+										"2": "CA",
+										"3": "5",
+										"4": "291859880",
+										"5": "2",
+										"6": "JDN 8305",
+										"7": "2023-05-15 12:53:25.133972",
+										"8": "0",
+										"9": "2023-05-15 12:53:24.963"
+									},
+									{
+										"0": {
+											"Make": "Mac",
+											"Model": "Granite",
+											"VehicleType": 2,
+											"VehicleWeight": 2.71
+										},
+										"1": "2023-05-15 12:53:21.813185",
+										"2": "AL",
+										"3": "18",
+										"4": "984837539",
+										"5": "3",
+										"6": "WFI 1534",
+										"7": "2023-05-15 12:53:25.680865",
+										"8": "0",
+										"9": "2023-05-15 12:53:25.479"
+									},
+									{
+										"0": {
+											"Make": "Toyota",
+											"Model": "Corolla",
+											"VehicleType": 1,
+											"VehicleWeight": 0
+										},
+										"1": "2023-05-15 12:53:22.032185",
+										"2": "TX",
+										"3": "5",
+										"4": "593077714",
+										"5": "2",
+										"6": "EYF 8555",
+										"7": "2023-05-15 12:53:26.446486",
+										"8": "0",
+										"9": "2023-05-15 12:53:26.291"
+									},
+									{
+										"0": {
+											"Make": "Toyota",
+											"Model": "4x4",
+											"VehicleType": 1,
+											"VehicleWeight": 0
+										},
+										"1": "2023-05-15 12:53:24.883701",
+										"2": "PA",
+										"3": "4",
+										"4": "211146837",
+										"5": "3",
+										"6": "EWJ 1282",
+										"7": "2023-05-15 12:53:29.524687",
+										"8": "0",
+										"9": "2023-05-15 12:53:29.354"
+									},
+									{
+										"0": {
+											"Make": "Ford",
+											"Model": "Mustang",
+											"VehicleType": 1,
+											"VehicleWeight": 0
+										},
+										"1": "2023-05-15 12:53:24.970701",
+										"2": "TX",
+										"3": "4",
+										"4": "728985115",
+										"5": "3",
+										"6": "MLD 5188",
+										"7": "2023-05-15 12:53:29.743345",
+										"8": "0",
+										"9": "2023-05-15 12:53:29.604"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "CarModel",
+										"type": "StructType(StructField(Make,StringType,true),StructField(Model,StringType,true),StructField(VehicleType,LongType,true),StructField(VehicleWeight,DoubleType,true))"
+									},
+									{
+										"key": "1",
+										"name": "EntryTime",
+										"type": "timestamp"
+									},
+									{
+										"key": "2",
+										"name": "State",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "TollAmount",
+										"type": "bigint"
+									},
+									{
+										"key": "4",
+										"name": "Tag",
+										"type": "bigint"
+									},
+									{
+										"key": "5",
+										"name": "TollId",
+										"type": "bigint"
+									},
+									{
+										"key": "6",
+										"name": "LicensePlate",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "EventProcessedUtcTime",
+										"type": "timestamp"
+									},
+									{
+										"key": "8",
+										"name": "PartitionId",
+										"type": "bigint"
+									},
+									{
+										"key": "9",
+										"name": "EventEnqueuedUtcTime",
+										"type": "timestamp"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"1"
+									],
+									"seriesFieldKeys": [
+										"3"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/e9f8c203-1c3b-4bec-b5a1-15076d805816/resourceGroups/POC/providers/Microsoft.Synapse/workspaces/mypoc/bigDataPools/spark1",
+				"name": "spark1",
+				"type": "Spark",
+				"endpoint": "https://mypoc.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/spark1",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net",
+					"authHeader": null
+				},
+				"sparkVersion": "3.3",
+				"nodeCount": 3,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"metadata": {
+					"microsoft": {
+						"language": "python"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df = spark.read.load('abfss://mycontainer@mystorageacc0987.dfs.core.windows.net/*/*/*.parquet', format='parquet')\r\n",
+					"display(df.limit(10))\r\n",
+					"df.count()\r\n",
+					"df.printSchema()"
+				],
+				"execution_count": 1
+			}
+		]
+	}
+}
